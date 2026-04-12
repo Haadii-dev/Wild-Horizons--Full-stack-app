@@ -34,10 +34,6 @@ export async function handleNews(req, res) {
   res.setHeader("Cache-Control", "no-cache")
   res.setHeader("Connection", "keep-alive")
 
-/*
-Challenge 1:
-  1. Set Content-Type, Cache-Control, and Connection headers
-*/
 
   setInterval(() => {
     let randomIndex = Math.floor(Math.random() * stories.length)
@@ -48,19 +44,6 @@ Challenge 1:
         story: stories[randomIndex]
       })}\n\n`
     )
- 
-/*
-Challenge 2:
-  1. Use res.write() to send an object to the frontend. 
-
-  The object should include:
-    - an event property with a descriptive name.
-    - a story chosen at random from the stories array.
-
-  Remember, the object is contained in a string which starts with 'data: '. 
-  What do you need at the end of the string to signal the end of a message block?
-
-*/
 
   }, 3000)
 
