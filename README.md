@@ -6,6 +6,16 @@ Built without Express, this project uses the native Node.js `http` module to han
 
 ---
 
+## Images
+<p align="center">
+  <img src="./public/images/Home.png" width="45%" />
+  <img src="./public/images/Readings.png" width="45%" />
+</p>
+<p align="center">
+  <img src="./public/images/Upload sighting.png" width="45%" />
+  <img src="./public/images/Live news.png" width="45%" />
+</p>
+
 ## Features
 
 - View all paranormal sightings
